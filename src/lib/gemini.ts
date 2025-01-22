@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI('AIzaSyBoxVz22n162WFv53J1JiSksObxCamSBOg');
+const genAI = new GoogleGenerativeAI('YOUR_API_KEY');
 
 export async function getDietRecommendations(
   healthConditions: string,
